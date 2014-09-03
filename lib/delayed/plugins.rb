@@ -15,5 +15,5 @@ if Delayed::Backend::Mongoid.mongoid3?
     end
   end
 
-  Delayed::Worker.plugins << Delayed::Plugins::ClearIdentityMap
+  # Delayed::Worker.plugins << Delayed::Plugins::ClearIdentityMap
 end
